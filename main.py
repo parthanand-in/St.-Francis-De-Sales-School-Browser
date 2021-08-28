@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
         back_btn.triggered.connect(self.browser.back)
         navbar.addAction(back_btn)
 
-        online_btn = QAction('Online Class', self)
+        online_btn = QAction('Online_class', self)
         onlineclass_btn.triggered.connect(self.navigate_onlineclass)
         navbar.addAction(Online Class)
 
