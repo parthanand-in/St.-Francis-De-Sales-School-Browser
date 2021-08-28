@@ -22,7 +22,7 @@ class MainWindow(QMainWindow):
 
         online_btn = QAction('Online_class', self)
         onlineclass_btn.triggered.connect(self.navigate_onlineclass)
-        navbar.addAction(Online Class)
+        navbar.addAction(Online_class)
 
         reload_btn = QAction('Reload', self)
         reload_btn.triggered.connect(self.browser.reload)
